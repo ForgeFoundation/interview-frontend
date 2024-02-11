@@ -2,14 +2,28 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { signInUser } from "./utils";
 
+// const firebaseConfig = {
+//     apiKey: "AIzaSyAOonudCmYXaeuKvJ3BYhiHH2Q6986s7yU",
+//     authDomain: "ghw23-85c04.firebaseapp.com",
+//     projectId: "ghw23-85c04",
+//     storageBucket: "ghw23-85c04.appspot.com",
+//     messagingSenderId: "72534743572",
+//     appId: "1:72534743572:web:71440b2fc58cbb8397e501"
+// };
+
+// Firebase configuration
+
+
+// project-6011918544
 const firebaseConfig = {
-    apiKey: "AIzaSyAOonudCmYXaeuKvJ3BYhiHH2Q6986s7yU",
-    authDomain: "ghw23-85c04.firebaseapp.com",
-    projectId: "ghw23-85c04",
-    storageBucket: "ghw23-85c04.appspot.com",
-    messagingSenderId: "72534743572",
-    appId: "1:72534743572:web:71440b2fc58cbb8397e501"
-};
+    apiKey: "AIzaSyDgfXavSMlq26anOKjn87I4Vs6VWFhbMZo",
+    authDomain: "descartable-server.firebaseapp.com",
+    databaseURL: "https://descartable-server-default-rtdb.firebaseio.com",
+    projectId: "descartable-server",
+    storageBucket: "descartable-server.appspot.com",
+    messagingSenderId: "6011918544",
+    appId: "1:6011918544:web:5a95545cc91a22e23526d5"
+  };
 
 const app = initializeApp(firebaseConfig);
 

@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 // const BACKEND_URL = 'http://127.0.0.1:8000';
-const BACKEND_URL = 'https://3nuqhxnbzm.us-east-1.awsapprunner.com/';
-
+const BACKEND_URL = 'https://3nuqhxnbzm.us-east-1.awsapprunner.com';
 export const AskFeedback = async ({
     answer,
     user_fid,

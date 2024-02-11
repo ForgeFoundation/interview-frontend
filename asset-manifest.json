@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SBUHacks_deployment/static/css/main.8ea8d6aa.css",
+    "main.js": "/SBUHacks_deployment/static/js/main.b9fb38b1.js",
+    "index.html": "/SBUHacks_deployment/index.html",
+    "main.8ea8d6aa.css.map": "/SBUHacks_deployment/static/css/main.8ea8d6aa.css.map",
+    "main.b9fb38b1.js.map": "/SBUHacks_deployment/static/js/main.b9fb38b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ea8d6aa.css",
+    "static/js/main.b9fb38b1.js"
+  ]
+}
